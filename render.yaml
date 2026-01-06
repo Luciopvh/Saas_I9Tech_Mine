@@ -1,0 +1,43 @@
+# Render Blueprint - Configuração automática para deploy
+# Este arquivo define todos os serviços necessários
+
+services:
+  # Backend API
+  - type: web
+    name: tacweb-backend
+    runtime: node
+    region: oregon
+    plan: free
+    branch: main
+    buildCommand: cd backend && npm install && npm run build
+    startCommand: cd backend && npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3000
+      - key: DB_TYPE
+        value: postgres
+      - key: LOG_LEVEL
+        value: info
+    healthCheckPath: /health
+    
+  # Frontend Static Site  
+  - type: web
+    name: tacweb-frontend
+    runtime: static
+    region: oregon
+    branch: main
+    buildCommand: cd frontend && npm install && npm run build
+    staticPublishPath: frontend/dist
+    envVars:
+      - key: VITE_API_URL
+        generateValue: true
+        
+# Databases
+databases:
+  - name: tacweb-db
+    databaseName: tacweb_integration
+    user: postgres
+    plan: free
+    region: oregon
