@@ -5,19 +5,19 @@
 | # | Nome | URL | Status |
 |---|------|-----|--------|
 | 04 | Consumo por Utilização | `/consumo/utilizacao` | ✅ IMPLEMENTADO |
-| 05 | Consumo por Abastecimento | `/consumo/abastecimento` | 📝 Estruturado |
-| 06 | Consumo por Período | `/consumo/periodo` | 📝 Estruturado |
+| 05 | Consumo por Abastecimento | `/consumo/abastecimento` | ✅ IMPLEMENTADO |
+| 06 | Consumo por Período | `/consumo/periodo` | ✅ IMPLEMENTADO |
 | 07 | Consumo por Equipamento | `/consumo/equipamento` | ✅ IMPLEMENTADO |
-| 08 | Consumo por Obra | `/consumo/obra` | 📝 Estruturado |
-| 09 | Consumo por Centro de Custo | `/consumo/centro-custo` | 📝 Estruturado |
-| 10 | Consumo por Tipo de Equipamento | `/consumo/tipo-equipamento` | 📝 Estruturado |
-| 11 | Consumo por Grupo de Equipamento | `/consumo/grupo-equipamento` | 📝 Estruturado |
-| 12 | Consumo por Empresa | `/consumo/empresa` | 📝 Estruturado |
-| 13 | Consumo Consolidado | `/consumo/consolidado` | 📝 Estruturado |
-| 14 | Consumo por Motorista/Operador | `/consumo/motorista` | 📝 Estruturado |
-| 15 | Consumo por Veículo | `/consumo/veiculo` | 📝 Estruturado |
-| 16 | Consumo por Frota | `/consumo/frota` | 📝 Estruturado |
-| 17 | Configuração de Equipamento | `/configuracao/equipamento` | 📝 Estruturado |
+| 08 | Consumo por Obra | `/consumo/obra` | ✅ IMPLEMENTADO |
+| 09 | Consumo por Centro de Custo | `/consumo/centro-custo` | ✅ IMPLEMENTADO |
+| 10 | Consumo por Tipo de Equipamento | `/consumo/tipo-equipamento` | ✅ IMPLEMENTADO |
+| 11 | Consumo por Grupo de Equipamento | `/consumo/grupo-equipamento` | ✅ IMPLEMENTADO |
+| 12 | Consumo por Empresa | `/consumo/empresa` | ✅ IMPLEMENTADO |
+| 13 | Consumo Consolidado | `/consumo/consolidado` | ✅ IMPLEMENTADO |
+| 14 | Consumo por Motorista/Operador | `/consumo/motorista` | ✅ IMPLEMENTADO |
+| 15 | Consumo por Veículo | `/consumo/veiculo` | ✅ IMPLEMENTADO |
+| 16 | Consumo por Frota | `/consumo/frota` | ✅ IMPLEMENTADO |
+| 17 | Configuração de Equipamento | `/configuracao/equipamento` | ✅ IMPLEMENTADO |
 
 ---
 
